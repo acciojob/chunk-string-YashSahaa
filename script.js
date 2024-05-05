@@ -2,9 +2,6 @@ function stringChop(str, size) {
   // your code here
 	
 	let arr = []
-	if(str.length==0){
-		return arr
-	}
 	let i = 0
 	let count = 0
 	for (let s of str) {
