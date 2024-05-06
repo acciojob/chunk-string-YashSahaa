@@ -2,7 +2,7 @@ function stringChop(str, size) {
   // your code here
 	
 	let arr = []
-	if(str.length==null){
+	if(str==null){
 		return arr
 	}
 	let i = 0
